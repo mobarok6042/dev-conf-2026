@@ -158,7 +158,7 @@ li::marker {
   color: #2312bd;
 }
 .booking-btn {
-  width: full;
+  width: 100%;
   height: 60px;
   border: 2px solid #2312bd;
   color: #2312bd;
@@ -205,7 +205,7 @@ li::marker {
   color: #ffffff;
 }
 .booking-btn-2 {
-  width: full;
+  width: 100%;
   height: 60px;
   border: 2px solid #2312bd;
   color: #f1f1f1;
