@@ -64,9 +64,9 @@
 .speaker-card {
   background-color: #f5f5f5;
   border-radius: 10px;
-  /* padding: 20px; */
+
   margin: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 9px;
   width: 650px;
   display: flex;
   flex-direction: column;
@@ -74,8 +74,8 @@
   border-radius: 10px;
 }
 .card-image {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .card-role {
   font-size: 12px;
@@ -86,22 +86,142 @@
 .card-name {
   font-size: 20px;
   font-weight: bolder;
-  margin: 0px 0px 10px 20px ;
+  margin: 0px 0px 10px 20px;
 }
 .card-identity {
   font-size: 16px;
   margin: 0px 0px 20px 20px;
   font-weight: 700;
 }
-.speaker-section-title{
-    font-size: 80px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 80px;
+.speaker-section-title {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
 }
-.card-container{
-    display:grid;
-    grid-template-columns: repeat(2, 650px);
-    justify-content: center;
-    gap: 40px;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 650px);
+  justify-content: center;
+  gap: 40px;
+}
+
+/* pricing section style starts from here */
+
+.price-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.card-1and3 {
+  width: 370px;
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 12px;
+}
+hr {
+  height: 0.5px;
+  background-color: black;
+  margin: 20px 0;
+}
+.class {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin: 0px 0px 10px 0px;
+}
+.price {
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 0px 0px 10px 0px;
+}
+.quantity {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px 0px 10px 0px;
+}
+.features {
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0px 50px 0px;
+}
+li::marker {
+  color: #2312bd;
+}
+.booking-btn {
+  width: full;
+  height: 60px;
+  border: 2px solid #2312bd;
+  color: #2312bd;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 20px;
+}
+/* card-2 */
+.card-2 {
+  width: 370px;
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 12px;
+  background-color: #03020f;
+}
+.class-2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1466d1;
+  margin: 0px 0px 10px 0px;
+}
+.price-2 {
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 0px 0px 10px 0px;
+  color: #ffffff;
+}
+.quantity-2 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px 0px 10px 0px;
+  color: #ffffff;
+}
+.features-2 {
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0px 50px 0px;
+  color: #ffffff;
+}
+.booking-btn-2 {
+  width: full;
+  height: 60px;
+  border: 2px solid #2312bd;
+  color: #f1f1f1;
+  background-color: #1466d1;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.pricing-title {
+  margin-top: 150px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.pricing-description {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
