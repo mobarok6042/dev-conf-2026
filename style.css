@@ -1,0 +1,28 @@
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.btn{
+    background-color: #2312bd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px 10px 80px;
+    background-color:none;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
