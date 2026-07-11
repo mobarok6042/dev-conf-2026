@@ -119,7 +119,7 @@
 .card-1and3 {
   width: 370px;
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid slategray;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -131,9 +131,9 @@ hr {
   margin: 20px 0;
 }
 .class {
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 600;
-  color: #1e1e1e;
+  color: slategrey;
   margin: 0px 0px 10px 0px;
 }
 .price {
@@ -170,7 +170,7 @@ li::marker {
 .card-2 {
   width: 370px;
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid slategray;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -178,7 +178,7 @@ li::marker {
   background-color: #03020f;
 }
 .class-2 {
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 600;
   color: #1466d1;
   margin: 0px 0px 10px 0px;
@@ -224,4 +224,63 @@ li::marker {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+}
+
+
+/* Container styling */
+.schedule-section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.schedule-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Individual row styling */
+.schedule-item {
+  display: flex;
+  margin-bottom: 30px;
+  border-left: 4px solid #007bff; /* Adds a nice vertical timeline bar */
+  padding-left: 20px;
+}
+
+/* Time column on the left */
+.schedule-time {
+  font-weight: bold;
+  color: #007bff;
+  min-width: 100px; /* Ensures all times take up the same width */
+  padding-top: 2px;
+}
+
+/* Content column on the right */
+.schedule-details h3 {
+  margin: 0 0 8px 0;
+  color: #222;
+  font-size: 1.2rem;
+}
+
+.schedule-details p {
+  margin: 0 0 8px 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Subtle styling for the speaker text */
+.speaker-name {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+
+
+
+sup{
+  vertical-align: super;
+  font-size:smaller;
 }
