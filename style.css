@@ -43,7 +43,7 @@
   display: flex;
   flex-direction: column;
   gap: 350px;
-  padding:30px;
+  padding: 30px;
 }
 .hero-heading {
   text-align: center;
@@ -290,19 +290,38 @@ sup {
 
 footer {
   background-color: rgba(13, 27, 42, 1);
-  height: 145px;
+  height: 250px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 100px 0px 100px;
+  padding: 40px 100px 20px 100px;
 }
 
 .footer-text {
   color: #ffffff41;
 }
-.footer-points {
+.footer-contents {
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+  gap:650px;
+}
+.social-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+.social-image {
+  width: 40px;
+  height: 40px;
+}
+footer hr{
+  border:none;
+  height:1px;
+  width:100%;
+  background-color:rgba(255,255,255,0.2)
 }
